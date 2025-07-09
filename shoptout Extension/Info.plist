@@ -8,6 +8,24 @@
 		<string>com.apple.Safari.web-extension</string>
 		<key>NSExtensionPrincipalClass</key>
 		<string>$(PRODUCT_MODULE_NAME).SafariWebExtensionHandler</string>
+		<key>SFSafariContentScript</key>
+		<array>
+			<dict>
+				<key>Script</key>
+				<string>content.js</string>
+			</dict>
+		</array>
+		<key>SFSafariWebExtensionDictionary</key>
+		<dict>
+			<key>Extension Identifier</key>
+			<string>net.tarq.shoptout.Extension</string>
+			<key>Extension Name</key>
+			<string>ShoptOut</string>
+			<key>Extension Scripts</key>
+			<array>
+				<string>background.js</string>
+			</array>
+		</dict>
 	</dict>
 </dict>
 </plist>
