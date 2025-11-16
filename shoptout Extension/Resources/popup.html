@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoptOut</title>
     <link rel="stylesheet" href="popup.css">
     <script type="module" src="popup.js"></script>
 </head>
 <body>
-    <strong>Hello World!</strong>
+    <div class="popup-container">
+        <header>
+            <h1>ShoptOut</h1>
+        </header>
+
+        <div class="toggle-section">
+            <label class="toggle-label" for="enabled-toggle">
+                <span>Extension</span>
+                <div class="toggle-switch">
+                    <input type="checkbox" id="enabled-toggle" role="switch" aria-label="Enable or disable ShoptOut extension">
+                    <span class="slider"></span>
+                </div>
+            </label>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item">
+                <span class="stat-label">Opt-outs blocked:</span>
+                <span class="stat-value" id="counter">0</span>
+            </div>
+        </div>
+
+        <footer>
+            <a href="mailto:shoptout@tarq.io" class="support-link">Support</a>
+        </footer>
+    </div>
 </body>
 </html>

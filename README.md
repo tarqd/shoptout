@@ -14,6 +14,9 @@ ShoptOut is a lightweight Safari extension that automatically unchecks newslette
 - 🔍 Automatically detects Shopify and Squarespace websites
 - ✅ Finds and unchecks newsletter subscription boxes
 - 🔄 Works with dynamically loaded content
+- 📊 Tracks how many opt-outs you've blocked
+- 🎚️ Easy on/off toggle in the extension popup
+- 🌓 Full dark mode support
 - 🔒 Privacy-focused - runs entirely on your device with no data collection
 
 ## Installation
@@ -48,16 +51,40 @@ ShoptOut respects your privacy:
 - No tracking
 - All processing happens locally on your device
 
+Read our full [Privacy Policy](PRIVACY.md) and [Terms of Service](TERMS.md).
+
+## Support
+
+Having issues or questions? Contact us at:
+- **Email**: shoptout@tarq.io
+- **GitHub Issues**: [Report a bug or request a feature](https://github.com/tarqd/shoptout/issues)
+
 ## Future Improvements
 
-- Support for additional e-commerce platforms
+- Support for additional e-commerce platforms (WooCommerce, BigCommerce, etc.)
 - Custom rules for specific websites
-- Statistics on how many checkboxes have been unchecked
-- Dark mode support for the container app
+- Per-site whitelist/blacklist
+- Enhanced statistics and analytics
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+## Legal
+
+- [Privacy Policy](PRIVACY.md)
+- [Terms of Service](TERMS.md)
+
+### Hosting Legal Documents
+
+For App Store compliance, these documents need to be publicly accessible. To host them on GitHub Pages:
+
+1. Enable GitHub Pages in your repository settings
+2. Set source to main branch / root directory
+3. Privacy Policy will be available at: `https://tarqd.github.io/shoptout/PRIVACY.html`
+4. Terms of Service will be available at: `https://tarqd.github.io/shoptout/TERMS.html`
+
+Alternatively, use a simple static hosting service like Netlify or Vercel.
 
 ## License
 

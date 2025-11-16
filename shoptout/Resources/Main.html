@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShoptOut</title>
+    <link rel="stylesheet" href="Style.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 120px;
+            height: 120px;
+            margin: 20px auto;
+            display: block;
+            border-radius: 26.67%;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 20px 0 10px;
+            color: #007AFF;
+        }
+
+        .tagline {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .instructions {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin: 0 0 16px;
+        }
+
+        .step {
+            margin-bottom: 20px;
+            padding-left: 36px;
+            position: relative;
+        }
+
+        .step-number {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 28px;
+            height: 28px;
+            background: #007AFF;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 14px;
+        }
+
+        .step-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .step-description {
+            color: #666;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .feature-list {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .feature {
+            display: flex;
+            align-items: start;
+            margin-bottom: 16px;
+        }
+
+        .feature:last-child {
+            margin-bottom: 0;
+        }
+
+        .feature-icon {
+            font-size: 24px;
+            margin-right: 12px;
+            flex-shrink: 0;
+        }
+
+        .feature-text {
+            flex: 1;
+        }
+
+        .feature-title {
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+
+        .feature-desc {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .privacy-note {
+            background: #f0f9ff;
+            border-left: 4px solid #007AFF;
+            padding: 16px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .privacy-note strong {
+            color: #007AFF;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #000;
+                color: #f5f5f7;
+            }
+
+            .instructions,
+            .feature-list {
+                background: #1c1c1e;
+                box-shadow: 0 2px 8px rgba(255,255,255,0.05);
+            }
+
+            .step-description,
+            .feature-desc {
+                color: #98989d;
+            }
+
+            .privacy-note {
+                background: #1a2632;
+                border-left-color: #007AFF;
+            }
+
+            footer {
+                color: #98989d;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="Icon.png" alt="ShoptOut Logo" class="logo">
+            <p class="tagline">Block unwanted newsletter opt-ins while you shop</p>
+        </header>
+
+        <div class="instructions">
+            <h2>How to Enable ShoptOut</h2>
+
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-title">Open Settings</div>
+                <div class="step-description">
+                    Go to your iPhone's Settings app
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-title">Find Safari</div>
+                <div class="step-description">
+                    Scroll down and tap on "Safari"
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-title">Go to Extensions</div>
+                <div class="step-description">
+                    Tap "Extensions" in the Safari settings
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-title">Enable ShoptOut</div>
+                <div class="step-description">
+                    Toggle on "ShoptOut" and allow it to run on all websites
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-list">
+            <h2>What ShoptOut Does</h2>
+
+            <div class="feature">
+                <div class="feature-icon">✅</div>
+                <div class="feature-text">
+                    <div class="feature-title">Auto-Uncheck Opt-ins</div>
+                    <div class="feature-desc">Automatically unchecks pre-selected marketing checkboxes</div>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🛍️</div>
+                <div class="feature-text">
+                    <div class="feature-title">Works on Popular Platforms</div>
+                    <div class="feature-desc">Supports Shopify and Squarespace checkouts</div>
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="feature-icon">🔒</div>
+                <div class="feature-text">
+                    <div class="feature-title">100% Private</div>
+                    <div class="feature-desc">No data collection, no tracking, everything stays on your device</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="privacy-note">
+            <strong>🔐 Privacy First:</strong> ShoptOut respects your privacy. All processing happens locally on your device. We never collect, store, or transmit any of your data.
+        </div>
+
+        <footer>
+            <p>Need help? Contact <a href="mailto:shoptout@tarq.io">shoptout@tarq.io</a></p>
+            <p style="margin-top: 8px; font-size: 12px;">Version 1.0</p>
+        </footer>
+    </div>
+</body>
+</html>

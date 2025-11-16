@@ -6,7 +6,7 @@
 
   // Configuration
   const config = {
-    debug: true, // Enable console logging
+    debug: false, // Enable console logging during development
   };
 
   // Logging utility
